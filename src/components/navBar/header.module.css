@@ -1,0 +1,32 @@
+.header {
+    height: 8rem;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 1rem;
+}
+
+.containerIcon {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.imgLogo {
+    border-radius: 999px;
+    width: 6rem;
+}

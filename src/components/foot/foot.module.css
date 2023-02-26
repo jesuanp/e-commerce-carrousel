@@ -1,0 +1,47 @@
+.container {
+    margin: 0 0.5rem 2rem 0.5rem;
+    color: rgb(79, 79, 79);
+}
+
+.imgLogo {
+    border-radius: 999px;
+    width: 6rem;
+}
+
+.ulCategory {
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.ulCategory li:hover {
+    color: rgb(75, 43, 253);
+}
+
+.ulInfo {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.containerMetodosPagos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.6rem 2rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5rem;
+}
+
+.imgPagos {
+    width: 16rem;
+    margin-bottom: 1rem;
+}

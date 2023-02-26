@@ -1,0 +1,41 @@
+.menu {
+    height: 100%;
+    width: 18rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    animation-name: openMenu;
+    animation-duration: 0.5s;
+}
+
+.fondoMenu {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.448);
+}
+
+.btnClose {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+@keyframes openMenu {
+    0% {
+        left: -18rem
+    }
+
+    100%  {
+        left: 0rem
+    }
+}
